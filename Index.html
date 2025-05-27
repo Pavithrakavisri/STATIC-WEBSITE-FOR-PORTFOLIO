@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Python Developer</title>
+  <link rel="stylesheet" href="Style.css" />
+  <script src="https://kit.fontawesome.com/a58d6279ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Junior Software Developer</p>
+            <h1>Hi, I'm <span>Pavithra Dhayalan</span><br>From India</h1>
+        </div>
+    </div>
+
+</div>
+<!----------------about------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A highly motivated Python Developer with a strong foundation
+                    in Python programming, Python frameworks , and SQL for
+                    database management. Proficient in C programming, with
+                    problem-solving skills and a passion for software development.
+                    Seeking an entry-level opportunity to contribute to innovative
+                    projects and enhance technical expertise.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li><span>2Month of Experience in Python Development</span><br>Software Developing</li>
+                            <li><span>1Month of Experience in Web Developement</span><br>Web app Development</li>
+                            <li><span>2Month of Experience in App Developer</span><br>Building Android?ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2025-Current</span><br>BE.CSE at MRKIT</li>
+                            <li><span>2023</span><br>2Month Python Programming course</li>
+                            <li><span>2021</span><br>HSC</li>
+                            <li><span>2019</span><br>SSLC</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------skills----------------------------->
+<div id="skills">
+     <div class="container">
+        <div class="row">
+            <div class="skills-col-1">
+                <h1 class="sub-title">Skills</h1>
+                <p>Display My Skills</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('languages know')">Languages Know</p>
+                    <p class="tab-links" onclick="opentab('services')">Services</p>
+                </div>
+                <div class="tab-contents active-tab" id="languages know">
+                    <ul>
+                        <li><span>Python Programming(Frameworks)</span><br>Software Development/Web Developement</li>
+                        <li><span>Java Programming(Frameworks)</span><br>Software Developement/Web Developement</li>
+                        <li><span>HTML,CSS,JavaScript</span><br>Web Developement</li>
+                        <li><span>Figma</span><br>Web Designing</li>
+                        <li><span>SQL Programming</span><br>Database Creating</li>
+                        <li><span>Git Hub</span><br>Using Projects purpose</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="services">
+                    <ul>
+                        <li>Software Development</li>
+                        <li>Web Developement</li>
+                        <li>Web Designing</li>
+                        <li>Using Projects in all domain</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="skills-col-2">
+                <img src="images/skills.jpeg">
+            </div>
+        </div>
+     </div>
+</div>
+<!------------------------projects----------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-hexagon-nodes-bolt"></i>
+                <h2>1.Artificial Intelligence and Machine Learning</h2>
+                <p>Artificial Intelligence is a branch of computer science focused on building smart machines capable of performing tasks that typically require human intelligence.Machine Learning is a subset of AI that enables machines to learn from data without being explicitly programmed. Instead of following strict rules, ML models identify patterns and improve their performance over time based on experience (data).</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-user-secret"></i>
+                <h2>2.Cybersecurity and Ethical Hacking</h2>
+                <p>Cybersecurity is the practice of protecting systems, networks, and data from digital attacks, unauthorized access, damage, or theft. It involves using technologies, processes, and best practicesEthical Hacking (also known as white-hat hacking) is the process of legally breaking into systems to find vulnerabilities before malicious hackers do.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>3.Web and Mobile Application Development</h2>
+                <p>Web and Mobile Application Development is the process of creating software applications that run on the web (browsers) and mobile devices (smartphones and tablets). These apps are designed to be interactive, user-friendly, and functional for tasks like communication, shopping, entertainment, or productivity.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-network-wired"></i>
+                <h2>4.Internet of Things (IoT) and Embedded Systems</h2>
+                <p>IoT refers to a network of physical devices ("things") embedded with sensors, software, and connectivity that allows them to collect and exchange data over the internet.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-cloud"></i>
+                <h2>5.Cloud Computing and Virtualization</h2>
+                <p>Cloud computing is the delivery of computing services—such as servers, storage, databases, networking, software, and analytics—over the internet (“the cloud”) on a pay-as-you-go</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------portfolio--------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.jpeg">
+                <div class="layer">
+                    <h3>Web page designing</h3>
+                    <p>how to customize the web in client required and demo of how to work</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.jpeg">
+                <div class="layer">
+                    <h3>Photo editing app</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work3.jpeg">
+                <div class="layer">
+                    <h3>Project Creating</h3>
+                    <p>All project are creating with college students and office purpose.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!------------------------------------contact---------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>miss.pavithradhayalan143@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>9363273161</p>
+                <div class="social-icons">
+                   <a href=""><i class="fa-brands fa-facebook"></i></a>
+                   <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                   <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                   <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Pavithradhayalan.pdf" download class="btn btn2">Download CV</a>
+          </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="your Email" required>
+                    <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Pavithradhayalan. Made with <i class="fa-solid fa-heart"></i> by Software Developer</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx-_J1iL5ONVBQ79pRmVLcqU0W9_0UQQwa7BSzuDDdS14aTeq4BuchGTAslO0Biwj6G/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form .reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
